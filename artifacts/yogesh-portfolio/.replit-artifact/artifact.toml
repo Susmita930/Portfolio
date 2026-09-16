@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Yogesh Singh Portfolio"
+description = "A cinematic, animated portfolio for Yogesh Singh, a data analyst who turns complex datasets into clear business stories through SQL, Power BI, Excel, PostgreSQL, and Python."
+version = "1.0.0"
+id = "artifacts/yogesh-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22629
+
+[services.development]
+run = "pnpm --filter @workspace/yogesh-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/yogesh-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/yogesh-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22629"
+BASE_PATH = "/"
