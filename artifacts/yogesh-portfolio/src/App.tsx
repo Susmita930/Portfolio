@@ -57,7 +57,7 @@ function App() {
         <div className="nav-inner">
           <a className="brand" href="#top" data-testid="link-brand" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
             <span className="brand-mark">Y</span>
-            <span>Yogesh Singh<small>DATA ANALYST · JAIPUR</small></span>
+            <span>Susmita Kumari<small>DATA ANALYST · JAIPUR</small></span>
           </a>
           <nav className={`nav-links ${menuOpen ? 'open' : ''}`} aria-label="Main navigation">
             {navItems.map((item) => (
@@ -81,7 +81,7 @@ function App() {
             <p className="hero-copy reveal delay-2">Results-driven Data Analyst and final-year B.Tech Computer Science student. I turn messy datasets into clear dashboards, useful questions, and business decisions that move.</p>
             <div className="hero-actions reveal delay-3">
               <a className="button primary" href="#projects" data-testid="button-view-projects" onClick={(e) => { e.preventDefault(); goTo('projects'); }}>See the work <ArrowDownRight size={15} /></a>
-              <a className="button secondary" href="mailto:yogeshsinghjat48@gmail.com" data-testid="button-email-hero">Start a conversation <ArrowUpRight size={15} /></a>
+              <a className="button secondary" href="mailto:susmita120506@gmail.com" data-testid="button-email-hero">Start a conversation <ArrowUpRight size={15} /></a>
             </div>
             <div className="hero-meta reveal delay-3">
               <div><span className="meta-value">8.1 / 10</span><span className="meta-label">B.Tech CGPA</span></div>
@@ -89,9 +89,9 @@ function App() {
               <div><span className="meta-value">4+</span><span className="meta-label">months in practice</span></div>
             </div>
           </div>
-          <div className="hero-visual reveal delay-2" aria-label="Yogesh Singh portrait and data dashboard accent">
+          <div className="hero-visual reveal delay-2" aria-label="Susmita Kumari portrait and data dashboard accent">
             <div className="orb" />
-            <img className="portrait" src={portrait} alt="Portrait of Yogesh Singh" data-testid="img-portrait-hero" />
+            <img className="portrait" src={portrait} alt="Portrait of Susmita Kumari" data-testid="img-portrait-hero" />
             <div className="visual-note"><span className="mono">CURRENT FOCUS</span><strong>Signal over noise.</strong></div>
             <div className="visual-note two"><span className="mono">LOCATION</span><strong>Jaipur, IN</strong></div>
             <div className="chart-card"><small>SALES PULSE · LIVE VIEW</small><div className="chart-number">+24.8%</div><div className="mini-bars" aria-hidden="true"><span /><span /><span /><span /><span /><span /></div></div>
@@ -112,9 +112,9 @@ function App() {
           <h2 className="section-title reveal delay-1">Curious by nature.<br /><em>Precise by practice.</em></h2>
           <p className="section-intro reveal delay-2">Good analysis starts before the query. It starts with noticing what feels strange, asking who needs the answer, and building the shortest path from raw data to a confident next step.</p>
           <div className="about-grid">
-            <div className="portrait-card reveal"><img src={portrait} alt="Yogesh Singh in a navy blazer" data-testid="img-portrait-about" /></div>
+            <div className="portrait-card reveal"><img src={portrait} alt="Susmita Kumari in a navy blazer" data-testid="img-portrait-about" /></div>
             <div className="about-copy reveal delay-1">
-              <p>I&apos;m <strong>Yogesh Singh</strong>, a results-driven Data Analyst and final-year B.Tech Computer Science student based in Jaipur, working hands-on with SQL, Power BI, Excel, PostgreSQL, and Python.</p>
+              <p>I&apos;m <strong>Susmita Kumari</strong>, a results-driven Data Analyst and final-year B.Tech Computer Science student based in Jaipur, working hands-on with SQL, Power BI, Excel, PostgreSQL, and Python.</p>
               <p>I&apos;m proficient in <strong>data cleaning, data visualization, dashboard development, KPI reporting, and trend analysis</strong> — turning complex, messy datasets into dashboards and insights that support real decisions rather than just looking good in a slide.</p>
               <p>Recently, as a Data Analytics Intern at Upflairs Pvt. Ltd., I cleaned and preprocessed datasets with Excel and Python, wrote SQL queries to analyze relational databases, and built interactive Power BI dashboards for sales trends and business performance.</p>
               <div className="stat-grid">
@@ -142,13 +142,29 @@ function App() {
           <h2 className="section-title reveal delay-1">Proof in the<br /><em>patterns.</em></h2>
           <p className="section-intro reveal delay-2">Two end-to-end builds that connect collection, cleaning, modeling, and visual explanation — with the decision-maker always in view.</p>
           <div className="project-grid">
-            <article className="project-card featured reveal" data-testid="card-project-starbucks">
-              <div className="project-visual"><span className="project-number">PROJECT / 01 · JAN — APR 2026</span><div className="dashboard"><div className="dash-top"><span>STARBUCKS / SALES PULSE</span><span className="dash-chip">LIVE VIEW</span></div><div className="dash-content"><div><div className="dash-big">₹84.2K</div><div className="dash-small">TODAY&apos;S REVENUE</div></div><div className="dash-lines"><span /><span /><span /><span /><span /><span /></div></div></div></div>
-              <div className="project-body"><div className="project-top"><span>END-TO-END ANALYTICS</span><span>01</span></div><h3>Starbucks Real-Time Sales Analytics Dashboard</h3><p>Built a website to capture Starbucks customer orders and store them in PostgreSQL, then integrated the database with Power BI to visualize near real-time sales and order data through interactive dashboards.</p><div className="project-tags"><span className="tag">Power BI</span><span className="tag">PostgreSQL</span><span className="tag">SQL</span><span className="tag">HTML / CSS / JS</span></div><a className="project-link" href="https://github.com/yogesh635" target="_blank" rel="noopener noreferrer" data-testid="link-project-starbucks">View on GitHub <ArrowUpRight size={14} /></a></div>
+            <article className="project-card reveal" data-testid="card-project-starbucks">
+              <div className="project-visual uber-visual">
+                <span className="project-number">PROJECT / 01 · DATA ANALYTICS</span>
+                <div className="uber-scene">
+                  <div className="uber-person" aria-hidden="true">
+                    <span className="head" />
+                    <span className="body" />
+                    <span className="bag" />
+                  </div>
+                  <div className="uber-car" aria-hidden="true">
+                    <span className="car-body" />
+                    <span className="car-window" />
+                    <span className="wheel wheel-left" />
+                    <span className="wheel wheel-right" />
+                  </div>
+                  <div className="uber-word">Uber</div>
+                </div>
+              </div>
+              <div className="project-body"><div className="project-top"><span>DATA ANALYTICS | EXCEL | POWER BI | DAX</span><span>01</span></div><h3>Uber Sales &amp; Ride Analytics Dashboard</h3><p>An interactive Uber Sales &amp; Ride Analytics Dashboard built with Microsoft Excel and Power BI. It analyzes ride bookings, revenue, customer trends, payment methods, and location performance using data cleaning, DAX measures, and interactive visualizations to uncover actionable business insights.</p><div className="project-tags"><span className="tag">Microsoft Excel</span><span className="tag">Power BI</span><span className="tag">DAX</span><span className="tag">Data Cleaning</span></div><a className="project-link" href="https://github.com/Susmita930" target="_blank" rel="noopener noreferrer" data-testid="link-project-starbucks">View on GitHub <ArrowUpRight size={14} /></a></div>
             </article>
             <article className="project-card reveal delay-1" data-testid="card-project-enfield">
-              <div className="project-visual"><span className="project-number">PROJECT / 02 · SEP — DEC 2025</span><div className="dashboard"><div className="dash-top"><span>ROYAL ENFIELD / SALES</span><span className="dash-chip">ANALYSIS</span></div><div className="dash-content"><div><div className="dash-big">REGION</div><div className="dash-small">DEALER BREAKDOWN</div></div><div className="dash-lines"><span /><span /><span /><span /><span /><span /></div></div></div></div>
-              <div className="project-body"><div className="project-top"><span>BI REPORTING</span><span>02</span></div><h3>Royal Enfield Sales Analysis Dashboard</h3><p>An interactive Power BI dashboard analyzing sales performance, with SQL-based cleaning and modeling behind reports on revenue, bike models, dealers, customers, and regional sales.</p><div className="project-tags"><span className="tag">Power BI</span><span className="tag">PostgreSQL</span><span className="tag">SQL</span></div><a className="project-link" href="https://github.com/yogesh635" target="_blank" rel="noopener noreferrer" data-testid="link-project-enfield">View on GitHub <ArrowUpRight size={14} /></a></div>
+              <div className="project-visual"><span className="project-number">PROJECT / 02 · MAY 2026 — AUG 2026</span><div className="dashboard"><div className="dash-top"><span>BOND PORTFOLIO</span><span className="dash-chip">RISK</span></div><div className="dash-content"><div><div className="dash-big">DURATION</div><div className="dash-small">CONVEXITY &amp; VaR</div></div><div className="dash-lines"><span /><span /><span /><span /><span /><span /></div></div></div></div>
+              <div className="project-body"><div className="project-top"><span>PYTHON · EXCEL · POWER BI · DAX</span><span>02</span></div><h3>Bond Portfolio Risk &amp; Convexity Sensitivity Analytics</h3><p>Analyzed bond portfolio risk using Duration, Convexity, DV01, and Key Rate Duration. Developed Monte Carlo simulations to evaluate portfolio P&amp;L, VaR, and CVaR under different yield curve scenarios. Built interactive Power BI dashboards with 40+ DAX measures for portfolio risk, sensitivity, and scenario analysis. Implemented yield-change What-If analysis from -300bps to +300bps to evaluate portfolio impact.</p><div className="project-tags"><span className="tag">Python</span><span className="tag">Microsoft Excel</span><span className="tag">Power BI</span><span className="tag">DAX</span></div><a className="project-link" href="https://github.com/Susmita930" target="_blank" rel="noopener noreferrer" data-testid="link-project-enfield">View on GitHub <ArrowUpRight size={14} /></a></div>
             </article>
           </div>
         </section>
@@ -170,16 +186,16 @@ function App() {
 
         <section className="contact-wrap" id="contact">
           <div className="contact-panel reveal">
-            <div><h2>Let&apos;s talk<br /><em>data.</em></h2><p>Open to full-time analytics roles and select freelance dashboard or forecasting work. If there&apos;s a messy dataset and a useful question behind it, I&apos;d like to hear about it.</p><a className="contact-button" href="mailto:yogeshsinghjat48@gmail.com" data-testid="button-email-contact">Send an email <ArrowUpRight size={14} /></a></div>
+            <div><h2>Let&apos;s talk<br /><em>data.</em></h2><p>Open to full-time analytics roles and select freelance dashboard or forecasting work. If there&apos;s a messy dataset and a useful question behind it, I&apos;d like to hear about it.</p><a className="contact-button" href="mailto:susmita120506@gmail.com" data-testid="button-email-contact">Send an email <ArrowUpRight size={14} /></a></div>
             <div className="contact-list">
-              <a className="contact-item" href="mailto:yogeshsinghjat48@gmail.com" data-testid="link-contact-email"><span className="contact-icon"><Mail size={17} /></span><span className="contact-detail"><small>Email</small><span>yogeshsinghjat48@gmail.com</span></span></a>
-              <a className="contact-item" href="tel:+916350092943" data-testid="link-contact-phone"><span className="contact-icon"><Phone size={17} /></span><span className="contact-detail"><small>Phone</small><span>+91 63500 92943</span></span></a>
-              <a className="contact-item" href="https://www.linkedin.com/in/yogesh-singh-251104313/" target="_blank" rel="noopener noreferrer" data-testid="link-contact-linkedin"><span className="contact-icon"><Linkedin size={17} /></span><span className="contact-detail"><small>LinkedIn</small><span>linkedin.com/in/yogesh-singh-251104313</span></span></a>
-              <a className="contact-item" href="https://github.com/yogesh635" target="_blank" rel="noopener noreferrer" data-testid="link-contact-github"><span className="contact-icon"><Github size={17} /></span><span className="contact-detail"><small>GitHub</small><span>github.com/yogesh635</span></span></a>
+              <a className="contact-item" href="mailto:susmita120506@gmail.com" data-testid="link-contact-email"><span className="contact-icon"><Mail size={17} /></span><span className="contact-detail"><small>Email</small><span>susmita120506@gmail.com</span></span></a>
+              <a className="contact-item" href="tel:+919305496893" data-testid="link-contact-phone"><span className="contact-icon"><Phone size={17} /></span><span className="contact-detail"><small>Phone</small><span>+91 93054 96893</span></span></a>
+              <a className="contact-item" href="https://www.linkedin.com/in/susmita-kumari-b497bb359" target="_blank" rel="noopener noreferrer" data-testid="link-contact-linkedin"><span className="contact-icon"><Linkedin size={17} /></span><span className="contact-detail"><small>LinkedIn</small><span>linkedin.com/in/susmita-kumari-b497bb359</span></span></a>
+              <a className="contact-item" href="https://github.com/Susmita930" target="_blank" rel="noopener noreferrer" data-testid="link-contact-github"><span className="contact-icon"><Github size={17} /></span><span className="contact-detail"><small>GitHub</small><span>github.com/Susmita930</span></span></a>
             </div>
           </div>
         </section>
-        <footer className="footer"><span>© 2026 Yogesh Singh — building dashboards that drive decisions.</span><a href="#top" data-testid="link-back-top">Back to top ↑</a></footer>
+        <footer className="footer"><span>© 2026 Susmita Kumari — building dashboards that drive decisions.</span><a href="#top" data-testid="link-back-top">Back to top ↑</a></footer>
       </div>
     </div>
   );
